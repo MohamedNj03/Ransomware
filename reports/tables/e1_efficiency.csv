@@ -1,0 +1,24 @@
+Modèle,Paramètres,Taille (Ko),Entraînement (s),Latence CPU 1 thread (ms),Latence p95 (ms)
+Ensemble + mix synthétique,"56,580",1597 ± 0,114.6 ± 39.5,7.66,8.90
+Ensemble multimodal + LightGBM,"56,580",1626 ± 1,76.4 ± 22.0,7.66,8.90
+LightGBM + mix synthétique,—,1375 ± 0,2.3 ± 1.4,0.43,0.63
+LightGBM,—,1405 ± 1,2.6 ± 0.2,0.48,0.72
+XGBoost,—,731 ± 12,3.4 ± 1.0,0.40,0.62
+CNN 1D,"60,097",235 ± 0,28.7 ± 23.3,0.53,0.79
+MHSA-LSTM,"50,242",196 ± 0,48.6 ± 18.2,1.75,2.35
+BiLSTM,"157,825",617 ± 0,106.1 ± 22.3,2.05,3.11
+Fusion multimodale + mix synthétique,"56,580",221 ± 0,199.3 ± 34.7,6.98,7.90
+Fusion multimodale,"56,580",221 ± 0,85.2 ± 29.3,7.18,8.18
+TCN causal,"127,809",499 ± 0,28.1 ± 8.9,2.16,2.84
+CNN-LSTM,"47,937",187 ± 0,84.5 ± 44.9,0.67,0.89
+LSTM,"62,593",245 ± 0,99.4 ± 50.7,0.90,1.78
+Transformer,"77,377",302 ± 0,50.4 ± 16.9,2.55,3.42
+Random Forest,—,8411 ± 196,1.6 ± 0.1,6.47,8.93
+MLP (sans ordre),"14,593",57 ± 0,13.0 ± 2.8,0.25,0.44
+Stats-GRU hybride,"41,986",164 ± 0,70.6 ± 25.0,3.71,4.57
+GRU,"48,001",188 ± 0,73.2 ± 34.9,7.00,8.51
+Régression logistique,—,6 ± 0,0.2 ± 0.1,0.18,0.21
+"RF fenêtres (Hirano, RanSMAP)",—,627 ± 24,0.4 ± 0.0,0.45,0.60
+kNN fenêtres (Hirano),—,2931 ± 0,0.0 ± 0.0,18.02,22.13
+SVM fenêtres (Hirano),—,653 ± 18,9.1 ± 0.9,32.61,37.04
+GRU anomalies (bénin seul),"45,856",179 ± 0,5.7 ± 1.0,6.52,7.90

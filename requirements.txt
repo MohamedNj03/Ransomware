@@ -1,0 +1,13 @@
+lightgbm==4.7.0
+matplotlib==3.10.9
+mlflow==3.17.0
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==25.0.1
+scikit-learn==1.7.2
+scipy==1.15.3
+seaborn==0.13.2
+skops==0.16.0
+tabulate==0.10.0
+torch==2.14.1+cu126
+xgboost==3.2.0
